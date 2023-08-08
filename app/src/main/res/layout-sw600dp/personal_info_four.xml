@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="@font/bold"
+                android:gravity="start"
+                android:text="@string/serviceacti"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_9sdp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:fontFamily="@font/reg"
+                        android:gravity="start"
+                        android:text="IPC - WirelessNow service is a prepaid service offered by the company to subscribers eligible for ACP and Lifeline discount benefits in states where it is authorized to do so. To maintain your service and benefits, you must personally activate the service by initiating data usage, or by responding to instructions from IPC to activate the service.  To keep your account active, you must use the service at least once during a 30-day period by completing an outbound call, sending a text message, using cellular data, purchasing additional service from IPC, answering an in-bound call from someone other than IPC - WirelessNow, or by responding to a direct contact from IPC confirming that you want to continue receiving service from IPC. If your service goes unused for 30 days, you will no longer be eligible for ACP benefits and your service is subject to a 15-day cure period during which you must use the service (as described above) in order to fully re-activate your service and remain enrolled in the ACP and or Lifeline Program."
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_8sdp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/round_reset_user"
+                        android:padding="@dimen/_5sdp">
+
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/reg"
+                            android:gravity="top"
+                            android:text="I hereby certify that I have read and understood the disclosures listed above regarding activation and usage requirements."
+                            android:textSize="@dimen/_8sdp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:fontFamily="@font/bold"
+                        android:gravity="start"
+                        android:text="@string/acp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_9sdp" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:fontFamily="@font/reg"
+                        android:gravity="start"
+                        android:text="The Affordable Connectivity Program (ACP) and Lifeline are government benefit programs operated by the Federal Communications Commission (FCC) that provides discounts on monthly voice and broadband Internet access service and certain connected devices. For more information about the ACP / Lifeline programs and the program eligibility requirements, call us at 1-833-778-0321 or visit www.ipc-llc.com or \n www.wirelessnow.com.
+\n \nWillfully making false statements to obtain the benefit can result in fines, imprisonment, de-enrollment or being barred from the program.
+\n \nACP and Lifeline benefits may be obtained from any participating provider of your choosing and your monthly service benefit may be transferred to another provider no more than once in a service month.
+\n \nACP and Lifeline discounts can be applied to any available IPC service plans at the same terms available to households that are not eligible for ACP or Lifeline supported services. Upload/download speeds will be determined by your particular service plan, and other factors, including your device, network availability from our underlying carrier, your proximity to cellular towers, and environmental factors may affect speeds, as described in our Broadband Transparency Disclosure at www.ipc-llc.com. A complete listing of our plans, including plans that are fully covered (no co-pay after application of the ACP discount), is available at www.ipc-llc.com and www.wirelessnow.com
+\n \nIPC’s complete Terms and Conditions, including the Acceptable Use Policy, Privacy Policy and ACP/Lifeline Terms and Conditions, apply and are available at www.ipc-llc.com and www.wirelessnow.com
+\n \nACP/ Lifeline monthly service and one-time device discounts are not transferrable to other households or individuals.
+\n \nAn eligible household is limited to one monthly service discount and a single one-time device discount.
+\n \nAn eligible household does not have to purchase an ACP discounted connected device in order to enroll in the ACP and receive monthly service discounts. Devices available for ACP discounts are listed at www.ipc-llc.com and www.wirelessnow.com.
+\n \nEligibility for the ACP/Lifeline enrollment is determined by the National Verifier and National Lifeline Accountability Database, administered by the Universal Service Administrative Company (USAC), or an alternative verification process approved by the FCC.
+\n \nYour ACP discount benefit is separate from your Lifeline discount benefit. Your household can receive only one ACP benefit and one Lifeline benefit. Your ACP benefit can be separate or combined with your Lifeline benefit, depending on your choice and the service plan you choose. Lifeline participants may maintain their existing Lifeline services without enrolling in the ACP and may choose to take ACP benefits from another service provider.
+\n \nIf the FCC announces the end of the ACP, or we discontinue our ACP service offers, or you transfer your ACP benefits to another provider, or we determine your household is no longer eligible, you will be notified. You may keep your service plan by paying the applicable undiscounted rate plus applicable fees and taxes.
+\n \nIf you select a plan that is not fully covered by applicable discounts and requires monthly post-payments (IPC does not offer any such plan at this time), IPC - WirelessNow may disconnect your ACP or Lifeline supported service after 90 consecutive days of non-payment.
+\n \nA household may file a complaint against an ACP/ Lifeline service provider via the FCC’s Consumer Complaint Center."
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_8sdp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/round_reset_user"
+                        android:padding="@dimen/_5sdp">
+
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/reg"
+                            android:gravity="top"
+                            android:text="I hereby certify that I have read and understood the disclosures listed above regarding the ACP/Lifeline benefits and consent to enroll in the ACP and or Lifeline program with IPC."
+                            android:textSize="@dimen/_8sdp" />
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/round_reset_user"
+                        android:padding="@dimen/_5sdp">
+
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/reg"
+                            android:gravity="top"
+                            android:text="If I am seeking to qualify for ACP and or Lifeline benefits as an eligible resident of Tribal lands, I certify that I live on Tribal lands, as defined in FCC rule 47 C.F.R. 54.400(e)."
+                            android:textSize="@dimen/_8sdp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/round_reset_user"
+                        android:padding="@dimen/_5sdp">
+
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/reg"
+                            android:gravity="top"
+                            android:text="I authorize and give express consent for IPC - WirelessNow and its contracted partners to contact me to validate my eligibility for, desire to participate in, or subscription to IPC - WirelessNow ACP and or Lifeline offers and other products and services via email, telephone, or text messaging, including calls using an automated telephone dialing system, manually, or with pre-recorded/artificial voice messages. Text messaging and data rates may apply. Consent for emails, calls and texts is optional and can be revoked at any time by dialing 611 from my IPC – WirelessNow provided wireless number or by calling 1-833-778-0321 and revoking consent. However, I understand that opting out will not affect IPC’s ability to contact me with notices and messages regarding services and connected device benefits and/or any other service or product via the methods listed herein."
+                            android:textSize="@dimen/_8sdp" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/round_reset_user"
+                        android:padding="@dimen/_5sdp">
+
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/reg"
+                            android:gravity="top"
+                            android:text="I acknowledge that I am providing the information I have included in this form to IPC - WirelessNow and further authorize IPC to receive and use my information for enrollment verification and waste, fraud, and abuse mitigation purposes. I also authorize IPC to receive and use my historic Emergency Broadband Benefit, ACP and or Lifeline enrollment information for verification and waste, fraud, and abuse mitigation purposes."
+                            android:textSize="@dimen/_8sdp" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/round_reset_user"
+                        android:padding="@dimen/_5sdp">
+
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/reg"
+                            android:gravity="top"
+                            android:text="I authorize IPC and its contracted partners, for the purpose of applying for, determining eligibility, enrolling in and seeking reimbursement of ACP and or Lifeline service and connected device benefits, to collect, use, share, and retain my personal information, including but not limited to information required for the purpose of establishing eligibility for and enrolling in the ACP and or Lifeline programs, and including, but not limited to, full name, full residential address, date of birth, last four digits of social security number, telephone number, eligibility criteria and status, the date on which the service discount was initiated and if applicable, terminated, usage status and other compliance requirements, the amount of support being sought for the service, and information necessary to establish identity and verifiable address. This information may be shared with USAC to ensure proper administration of the ACP / Lifeline programs. Failure to provide consent will result in me being denied service in the discounted programs and connected device benefits."
+                            android:textSize="@dimen/_8sdp" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/round_reset_user"
+                        android:padding="@dimen/_5sdp">
+
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/reg"
+                            android:gravity="top"
+                            android:text="I agree that any state, local, Tribal government, school, or school district, may share information about my receipt of benefits that would establish eligibility for the ACP and or Lifeline program, and that such information will be used only to determine program eligibility."
+                            android:textSize="@dimen/_8sdp" />
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/round_reset_user"
+                        android:padding="@dimen/_5sdp">
+
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/reg"
+                            android:gravity="top"
+                            android:text="I certify that if I receive a connected device discount from IPC as part of the ACP, I will pay a minimum of $10.01 and a maximum of $49.99 for the connected device and that, to the best of my knowledge, no one in my household has received a connected device discount from any service provider through the ACP or the Emergency Broadband Benefit program."
+                            android:textSize="@dimen/_8sdp" />
+                    </LinearLayout>
+
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:fontFamily="@font/bold"
+                        android:gravity="start"
+                        android:text="@string/consent"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_9sdp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:fontFamily="@font/reg"
+                        android:gravity="start"
+                        android:text="A subscriber already enrolled in the ACP or Lifeline program with another provider must consent to the transfer of their ACP and or Lifeline benefit to IPC - WirelessNow.
+\n \nThe effect of an ACP and or Lifeline benefit transfer is that your ACP and or Lifeline benefit will be applied to IPC program services and will no longer be applied to service retained from your former ACP and or Lifeline service provider. You may be subject to your former ACP/Lifeline provider’s undiscounted rates as a result of the transfer if you elect to maintain service from that provider.
+\n \nYou are limited to one ACP and one Lifeline benefit transfer transaction per service month, with limited exceptions for situations where a subscriber seeks to reverse an unauthorized benefit transfer or is unable to receive service from a specific provider."
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_8sdp" />
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/round_reset_user"
+                        android:padding="@dimen/_5sdp">
+
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/reg"
+                            android:gravity="top"
+                            android:text="After receiving and reviewing the foregoing required disclosures, I consent to and authorize IPC to transfer my current ACP benefit to IPC, if I am found to already be receiving an ACP discount benefit from another ACP provider."
+                            android:textSize="@dimen/_8sdp" />
+                    </LinearLayout>
+
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:fontFamily="@font/bold"
+                        android:gravity="start"
+                        android:text="@string/discounted"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_9sdp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/round_reset_user"
+                        android:padding="@dimen/_5sdp">
+
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/reg"
+                            android:gravity="top"
+                            android:text="I hereby confirm that I want to purchase and receive an ACP discounted connected device from IPC-WirelessNow."
+                            android:textSize="@dimen/_8sdp" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/round_reset_user"
+                        android:padding="@dimen/_5sdp">
+
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/reg"
+                            android:gravity="top"
+                            android:text="You agree that by submitting this application form and completing the eligibility verification process you are consenting to activate your ACP benefit and service with IPC – WirelessNow."
+                            android:textSize="@dimen/_8sdp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:fontFamily="@font/bold"
+                        android:gravity="start"
+                        android:text="@string/certitruth"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_9sdp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/round_reset_user"
+                        android:padding="@dimen/_5sdp">
+
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/reg"
+                            android:gravity="top"
+                            android:text="By checking this box, I hereby certify, under penalty of perjury, that the information included in the foregoing applications and certifications is true and correct to the best of my knowledge."
+                            android:textSize="@dimen/_8sdp" />
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:fontFamily="@font/bold"
+                        android:gravity="start"
+                        android:text="@string/esign"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_9sdp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/round_reset_user"
+                        android:padding="@dimen/_5sdp">
+
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/reg"
+                            android:gravity="top"
+                            android:text="I consent to use of this electronic form. I understand I have the right to enroll in the service using non-electronic methods. I further understand that I have the right to withdraw this consent at any time prior to the activation of my service. IPC-WirelessNow has advised me and I understand that I may request a paper copy of my contractual terms and associated fees or withdraw this consent by calling 1-833-778-0321."
+                            android:textSize="@dimen/_8sdp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginVertical="@dimen/_10sdp"
+                    android:background="@color/lightgray" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:id="@+id/ll_back_four"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/round_go_back"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:src="@drawable/arrow_left" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:fontFamily="@font/reg"
+                            android:gravity="center"
+                            android:text="@string/goback"
+                            android:textColor="@color/goback"
+                            android:textColorHint="@color/black"
+                            android:textSize="@dimen/_10sdp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_continue_four"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/round_continue_orange"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:fontFamily="@font/bold"
+                            android:gravity="center"
+                            android:text="Continue"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_10sdp" />
+
+                        <ImageView
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:src="@drawable/arrow_right"
+                            android:tint="@color/white"
+                            app:tint="@color/white" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:background="@drawable/banner"></ImageView>
+
+                <include layout="@layout/layout_footer" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
